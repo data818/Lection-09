@@ -73,4 +73,57 @@ h6 {
 #__next {
   isolation: isolate;
 }
-/* start */
+/* !code start */
+/* body {
+  position: relative;
+  background-color: #ffffff;
+  min-height: 100vh;
+}
+.center-line {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  height: 100px;
+  width: 1px;
+  background-color: #888888;
+}
+
+.vertical-line {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  height: 100%;
+  width: 1px;
+  background-color: #888888;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  transform: translateX(50% -50%);
+}
+ */
+.input-container {
+  position: relative;
+  width: 268px;
+}
+
+.input-container input {
+  background-color: lightcoral;
+  border-radius: 8px;
+  width: 100%;
+  padding: 11px 40px 11px 16px;
+
+  border: none;
+}
+
+.input-container .input-icon {
+  display: flex;
+  width: 16px;
+  height: 15px;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
